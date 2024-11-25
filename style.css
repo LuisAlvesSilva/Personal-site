@@ -48,7 +48,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    box-shadow: 0 4px 8px var(--color-shadow);
+    box-shadow: 0 8px 12px var(--color-shadow);
 }
 
 .name {
@@ -66,11 +66,14 @@ body {
     text-shadow: 0 0 2px var(--color-accent);
 }
 
-.contact a {
-    margin-right: 1rem;
+.contact a{
     color: #000;
-    font-size: 1.5rem;
+    font-size: 2rem;
     transition: color 0.3s ease;
+}
+
+.contact a:hover{
+    color: var(--color-accent);
 }
 
 .skills .about p {
